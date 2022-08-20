@@ -6,4 +6,6 @@ page = requests.get(URL)
 
 soup = BeautifulSoup(page.content, "html.parser")
 
-print(soup.get_text())
+res = soup.title
+
+print(res.get_text())   
