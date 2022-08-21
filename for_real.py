@@ -49,6 +49,9 @@ for grocery in initial_list:
 
 
 total = [int(x) for x in total]
+
+print(initial_list)
+print('Totals: ', end='')
 print(total)
 
 
