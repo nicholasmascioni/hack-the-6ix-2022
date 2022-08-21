@@ -49,8 +49,10 @@ t_and_t_database = {
     "white sugar": 3.49,
     "brown sugar": 4.17,
     "eggs": 4.72,
+    "vanilla extract": 8.99,
     "baking soda": 4.39,
     "salt": 1.59,
     "all-purpose flour": 7.69,
+    "semisweet chocolate chips": 8.99,
     "chopped walnuts": 9.98
 }
