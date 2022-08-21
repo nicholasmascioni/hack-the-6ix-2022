@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import urllib.request
 
 #-------------------------------------------------------------------------------------------------------------------------#
 
@@ -53,8 +52,15 @@ request = urllib.request.Request(url, None, headers)
 
 response = urllib.request.urlopen(request)
 
-soup = BeautifulSoup(html, "lxml")
+soup = BeautifulSoup(response, 'html.parser')
 
 for foo in soup.find_all('img', alt=True):
 
     print(foo['alt'])
+
+# -------------------------------------------------------------------------------------------------------------------------#
+
+# Third try! following tutorial
+
+
+
